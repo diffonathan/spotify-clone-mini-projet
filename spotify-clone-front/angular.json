@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "spotify-front": {
+    "spotify-clone-front": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/spotify-front",
+            "outputPath": "dist/spotify-clone-front",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "spotify-front:build:production"
+              "buildTarget": "spotify-clone-front:build:production"
             },
             "development": {
-              "buildTarget": "spotify-front:build:development"
+              "buildTarget": "spotify-clone-front:build:development"
             }
           },
           "defaultConfiguration": "development"
