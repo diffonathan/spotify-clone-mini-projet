@@ -1,4 +1,45 @@
 # spotify-clone-mini-projet
+DESCRIPTION : ENGLISH AND FRENCH
+--ENGLISH VERSION
+
+I am creating a Spotify clone using Spring Boot 3, Angular 17, Bootstrap 5, and PostgreSQL.
+
+This project is a functional clone of Spotify, developed with Spring Boot 3 for the backend, Angular 17 for the frontend, and PostgreSQL for database management. It offers a user experience similar to Spotify, featuring music streaming, playlist creation, and music search.
+
+Key Features:
+
+User Management: Registration, login, and session management.
+Music Streaming: Streaming interface with track and volume controls.
+Playlist Management: Creation, editing, and deletion of playlists.
+Music Search: Quick search for songs, albums, and artists.
+Responsive Design: Modern and responsive interface with Bootstrap 5 for smooth navigation on all screen sizes.
+Technical Stack:
+
+Backend: Spring Boot 3 (RESTful API, user services, music services)
+Frontend: Angular 17 (dynamic user interface, state management with RxJS)
+Database: PostgreSQL (user and music data management)
+Design: Bootstrap 5 (responsive and modern design)
+Objectives:
+
+Recreate a modern music streaming application.
+Explore full-stack development with Spring Boot and Angular.
+Optimize performance with efficient SQL queries and secure session handling.
+Prerequisites:
+
+JDK 17 or higher
+Node.js and npm
+PostgreSQL
+Installation and Usage:
+
+Clone this repository.
+Configure your PostgreSQL database and update the connection settings in application.properties.
+Install frontend dependencies using npm install and start the Angular application with ng serve.
+Run the backend with mvn spring-boot:run.
+Contributing: Contributions are welcome! If you want to enhance this project, feel free to open a pull request.
+
+
+--FRENCH VERSION
+
 Je réalise le clone de  Spotify en utilisant Spring Boot 3, Angular 17, Bootstrap 5 et PostgreSQL. Fonctionnalités : gestion des utilisateurs, écoute en streaming, création de playlists, recherche de musique. Design réactif et moderne avec Bootstrap 5.Un Backend RESTful avec Spring Boot et base de données PostgreSQL.
 
 Spotify Clone - Spring Boot 3, Angular 17, Bootstrap 5, PostgreSQL
@@ -31,3 +72,8 @@ Installez les dépendances frontend avec npm install et démarrez l'application 
 Lancez le backend avec mvn spring-boot:run.
 Contribuer :
 Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, ouvrez une pull request.
+
+
+
+
+
